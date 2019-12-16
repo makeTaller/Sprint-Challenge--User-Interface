@@ -73,8 +73,8 @@ p {
 .nav-item{
 	display:flex;
 	justify-content:space-between;
-	font-size:1em;
-	margin: 2% 8% 1% 0%;
+	align-items:flex-end;
+	margin: 2% 8% 3% 0%;
 }
 
 nav a{
@@ -85,9 +85,9 @@ nav a{
 
 .jumbo-pic{
 	width:100%;
+	margin-bottom:5%;
 }
 .container {
-		border:solid;
     width: 100%;
     margin: 0 auto;
 }
