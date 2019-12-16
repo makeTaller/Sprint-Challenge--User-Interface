@@ -88,10 +88,23 @@ nav a{
 	margin-bottom:5%;
 }
 .container {
+		border:solid;
     width: 100%;
     margin: 0 auto;
 }
 
+.container .about-page{
+		border:solid;
+		display:flex;
+}
+
+.img-struct{
+	width:100%;
+}
+.p-struct{
+	display:flex;
+	flex-direction:column;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -106,6 +119,10 @@ nav a{
     padding-bottom: 20px;  
 }
 
+.middle-main{
+	border:solid;
+	display:flex;
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
