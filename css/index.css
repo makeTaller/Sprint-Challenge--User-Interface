@@ -62,6 +62,15 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+span{
+	display:flex;
+	flex-direction:flex-start;
+	width:18%;
+  margin: 2% 0% 2% 0%;
+	padding:4px;
+	border-radius:25px;
+	border:2px solid black;
+}
 p {
     line-height: 1.4;
 }
@@ -104,6 +113,7 @@ nav a{
 .p-struct{
 	display:flex;
 	flex-direction:column;
+	margin:2%;
 }
 .top-content {
     display: flex;
@@ -122,6 +132,12 @@ nav a{
 .middle-main{
 	border:solid;
 	display:flex;
+}
+
+.middle-strut{
+	border:solid;
+	margin: 2% 0% 18% 0%;
+	padding:2%;
 }
 .middle-content {
     margin-bottom: 20px;
@@ -197,6 +213,11 @@ nav a{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+.bottom-last{
+	  margin: 4% 2% 4% 2%;
+	}
+		
 
 footer {
     width: 100%;
