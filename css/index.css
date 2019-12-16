@@ -86,6 +86,7 @@ p {
 	margin: 2% 8% 3% 0%;
 }
 
+
 nav a{
 	font-size: 100%;
 	color:black;
@@ -97,24 +98,29 @@ nav a{
 	margin-bottom:5%;
 }
 .container {
-		border:solid;
     width: 100%;
     margin: 0 auto;
 }
 
 .container .about-page{
-		border:solid;
 		display:flex;
 }
 
-.img-struct{
-	width:100%;
+.w-line{
+	border-bottom: 1px dashed black;
 }
+
+.img-struct{
+	width:95%;
+}
+
 .p-struct{
 	display:flex;
 	flex-direction:column;
-	margin:2%;
+	margin: 2% 1% 2% 0%;
+	border-bottom: 1px dashed black;
 }
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -130,14 +136,15 @@ nav a{
 }
 
 .middle-main{
-	border:solid;
 	display:flex;
+	width:100%;
 }
 
 .middle-strut{
-	border:solid;
-	margin: 2% 0% 18% 0%;
+	width:45%;
+	margin: 2% 0% 3% 0%;
 	padding:2%;
+	border-bottom: 2px dashed black;
 }
 .middle-content {
     margin-bottom: 20px;
